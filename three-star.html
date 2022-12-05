@@ -1,58 +1,228 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Three star media</title>
-    <!--bootstrap css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!--bootstrap icons-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <!--Custom css-->
-    <link rel="stylesheet" href="css/three-star.css">
-  </head>
-  <body>
-    <header class="bg-dark">
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <div class="container-xl">
-              <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="Three Star Media logo">
-              </a>
-              <!--hamburger menu-->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
 
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-primary rounded-0" type="submit"><i class="bi bi-search"></i></button>
-                </form>
-              </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Three Star Media</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/three-star.css">
+</head>
+
+<body>
+  <header class="bg-dark">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="container-xl">
+        <!-- website logo -->
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="Three Star Media logo">
+        </a>
+        <!-- hamburger menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control rounded-0" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary rounded-0" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div><!-- closes .collapse -->
+      </div><!-- closes .container-xl -->
+    </nav>
+  </header>
+  <main>
+    <section class="banner py-5" id="home">
+      <div class="container-xl banner-info bg-dark bg-opacity-75 text-light py-4">
+        <h1 class="display-1">Welcome to Three Star Media</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero enim eum blanditiis aperiam eaque veniam dolores animi tempora beatae accusantium doloribus quidem omnis iste dolore, sapiente voluptates error? Aspernatur?</p>
+        <a href="#contact" class="btn btn-primary text-dark p-3 rounded-0">Connect with us <i class="bi bi-caret-right-fill"></i></a>
+      </div>
+    </section>
+    <!-- About Us Section -->
+    <section id="about" class="bg-secondary py-2">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-sm">
+            <img src="images/about-us.jpg" alt="office ping-pong table" class="img-fluid">
+          </div>
+          <div class="col-sm">
+            <h2 class="display-4">About Us</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore eligendi, iste nulla laudantium, totam in odio ea quas consectetur veniam eaque mollitia cupiditate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum fuga facilis, perferendis explicabo est possimus exercitationem libero repudiandae! Pariatur, possimus!</p>
+          </div><!-- closes .col-sm -->
+        </div><!-- closes .row -->
+      </div><!-- closes .container-xl -->
+    </section><!-- closes about section -->
+    <!-- Services Section -->
+    <section class="container-xl my-4" id="services">
+      <h2 class="display-4">Our Services</h2>
+      <div class="row g-2">
+        <div class="col-md-6">
+          <div class="card rounded-0 border-0 bg-secondary">
+            <img src="images/digital.jpg" class="card-img-top rounded-0" alt="user on a laptop and smartphone">
+            <div class="card-body">
+              <h5 class="card-title">Digital Transformation</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima exercitationem debitis?</p>
+              <a href="#" class="btn btn-dark text-light rounded-0 p-3 d-block">Digital Plans <i class="bi bi-caret-right-fill"></i></a>
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+        </div><!-- closes .col-md -->
+        <div class="col-md-6">
+          <div class="card rounded-0 border-0 bg-secondary">
+            <img src="images/marketing.jpg" class="card-img-top rounded-0" alt="laptop on top os a desk">
+            <div class="card-body">
+              <h5 class="card-title">Marketing </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima exercitationem debitis?</p>
+              <a href="#" class="btn btn-dark text-light rounded-0 p-3 d-block">Marketing Plans <i class="bi bi-caret-right-fill"></i></a>
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+        </div>
+        <div class="col-md-4">
+          <div class="card rounded-0 border-0 bg-secondary">
+            <img src="images/video.jpg" class="card-img-top rounded-0" alt="user opening YouTube on a smartphone">
+            <div class="card-body">
+              <h5 class="card-title">Video Production</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima exercitationem debitis?</p>
+              <a href="#" class="btn btn-dark text-light rounded-0 p-3 d-block">Video Plans <i class="bi bi-caret-right-fill"></i></a>
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+        </div>
+        <div class="col-md-4">
+          <div class="card rounded-0 border-0 bg-secondary">
+            <img src="images/web.jpg" class="card-img-top rounded-0" alt="smartphone and a pen on top of a notebook">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima exercitationem debitis?</p>
+              <a href="#" class="btn btn-dark text-light rounded-0 p-3 d-block">Web Plans <i class="bi bi-caret-right-fill"></i></a>
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+        </div>
+        <div class="col-md-4">
+          <div class="card rounded-0 border-0 bg-secondary">
+            <img src="images/print.jpg" class="card-img-top rounded-0" alt="row of mailboxes">
+            <div class="card-body">
+              <h5 class="card-title">Print</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima exercitationem debitis?</p>
+              <a href="#" class="btn btn-dark text-light rounded-0 p-3 d-block">Print Plans <i class="bi bi-caret-right-fill"></i></a>
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+        </div><!-- closes .col-md -->
+      </div><!-- closes .row -->
+    </section>
+    <!-- Vision Section -->
+    <section class="vision bg-dark text-light py-4">
+      <div class="container-xl">
+        <h2 class="display-4">Our Vision</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi odit itaque iure dolor officiis. Deserunt asperiores beatae assumenda quia, repellat dolor consequuntur culpa similique quos! Rerum magni cum repellat natus!</p>
+        <a href="#" class="btn btn-dark border border-primary rounded-0 p-3">Learn More <i class="bi bi-caret-right-fill"></i></a>
+      </div>
+    </section>
+    <!-- Our Team Section -->
+    <section class="container-xl my-4" id="team">
+      <h2 class="display-4">Our Team</h2>
+      <div class="row row-cols-md-2 g-0">
+        <div>
+          <img src="images/john.jpg" alt="image of John" class="img-fluid w-100">
+        </div><!-- closes image div -->
+        <div class="bg-secondary py-4 px-2">
+          <h3>John Doe</h3>
+          <p class="h6 border-bottom border-primary border-3">CEO and Co-Owner</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam dicta quos, assumenda modi quam ratione animi atque excepturi neque consectetur laborum eum, sint provident dolor fugit doloribus esse quasi numquam?</p>
+        </div><!-- closes info div -->
+        <div class="order-md-last mt-2 mt-md-0">
+          <img src="images/bob.jpg" alt="image of Bob" class="img-fluid w-100">
+        </div><!-- closes image div -->
+        <div class="bg-secondary py-4 px-2">
+          <h3>Bob Rite</h3>
+          <p class="h6 border-bottom border-primary border-3">CFO and Co-Owner</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam dicta quos, assumenda modi quam ratione animi atque excepturi neque consectetur laborum eum, sint provident dolor fugit doloribus esse quasi numquam?</p>
+        </div><!-- closes info div -->
+      </div><!-- closes .row -->
+    </section>
+    <!-- Contact Section -->
+    <section class="container-xl my-4" id="contact">
+      <h2 class="display-4">Contact Us</h2>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <h3>Send us a message</h3>
+          <form>
+            <div class="mb-3">
+              <label for="fullname" class="form-label">Full Name</label>
+              <input type="text" class="form-control rounded-0 border-dark" id="fullname">
             </div>
-          </nav>
-    </header>
+            <div class="mb-3">
+              <label for="useremail" class="form-label">Email address</label>
+              <input type="email" class="form-control rounded-0 border-dark" id="useremail">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control rounded-0 border-dark" name="message" id="message" cols="30" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark rounded-0 text-primary">Send</button>
+          </form>
+        </div><!-- closes form div -->
+        <div class="col-md-12 order-md-last">
+          <h3>Hours of Operation</h3>
+          <table class="table table-bordered border-dark">
+            <thead>
+              <tr class="bg-secondary text-center">
+                <th>Days</th>
+                <th>Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday-Friday</td>
+                <td>9 AM - 6 PM</td>
+              </tr>
+              <tr>
+                <td>Saturday-Sunday</td>
+                <td>Closed</td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!-- closes hours div -->
+        <div class="col-md-6">
+          <h3>Location</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11215.77602817817!2d-75.76369155703411!3d45.34994254555339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1668109670809!5m2!1sen!2sca" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+        </div><!-- closes location div -->
+      </div>
+    </section>
+  </main>
+  <footer class="bg-dark text-primary py-4">
+    <div class="container-xl">
+      <p>&copy; Copyright, Three Star Media</p>
+      <p>All images are taken from <a href="https://unsplash.com/explore" target="_blank">Unsplash</a></p>
+    </div>
+  </footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
 
-
-
-    <!--bootstrap javascript-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
 </html>
